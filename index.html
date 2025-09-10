@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mohammed Shair — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="description" content="Portfolio of Mohammed Shair — Aspiring Web Developer Intern and Jamuna Foundation participant.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="name">MOHAMMED SHAIR</h1>
+        <p class="tagline">Aspiring Web Developer | Building Scalable and Socially Impactful Projects</p>
+      </div>
+      <nav class="nav" id="nav">
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section about container">
+      <div class="about-grid">
+        <div class="photo-card">
+          <img src="assets/photo.jpg" alt="Mohammed Shair" />
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I am <strong>MOHAMMED SHAIR</strong>, an aspiring Web Developer skilled in crafting scalable, responsive web applications using industry-best practices. I am passionate about backend logic, clean code, and collaborating to build impactful digital solutions. Adept at learning new technologies, I am eager to contribute to innovative projects in fast-paced environments.
+          </p>
+          <div class="quick-contact">
+            <a class="btn" href="mailto:mohammedshair04@gmail.com">mohammedshair04@gmail.com</a>
+            <a class="btn ghost" href="tel:+918884714023">+91 8884714023</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section education container">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>NMAM Institute of Technology (NMAMIT), Nitte</strong><br>B.Tech in Artificial Intelligence & Machine Learning — Expected Graduation: 2028</li>
+        <li><strong>Sri Venkatramana PU College (SVPUC), Kundapur</strong><br>PUC – Science (PCMC) — Completed: 2024</li>
+        <li><strong>Viveka English Medium High School, Kota</strong><br>SSLC / 10th Standard — Completed: 2022</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="section skills container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill"><h3>Programming</h3><p>C, C++, Java, Python, JavaScript</p></div>
+        <div class="skill"><h3>Web Development</h3><p>HTML, CSS, React.js, Node.js (Basics), Responsive Design</p></div>
+        <div class="skill"><h3>Tools & Platforms</h3><p>VS Code, Git & GitHub, Firebase</p></div>
+        <div class="skill"><h3>Soft Skills</h3><p>Problem-Solving, Team Collaboration, Communication, Adaptability</p></div>
+        <div class="skill"><h3>Creative</h3><p>Video Editing (CapCut, VN), Content Creation</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Drivify – Industrial Training Project</h3>
+          <p>
+            Developed a fully functional, responsive web application from concept to deployment. Worked with HTML, CSS, JavaScript, VS Code, and GitHub. Learned teamwork, collaboration, and communication. Overcame challenges in manual data collection due to limited APIs.
+          </p>
+        </article>
+        <article class="project-card">
+          <h3>Donation Calculator</h3>
+          <p>
+            Built as part of Jamuna Foundation Internship — calculates donation impact (e.g., trees planted per donation) using HTML, CSS Grid, and JavaScript.
+          </p>
+          <div class="project-actions">
+            <a class="btn" href="donation-calculator/index.html" target="_blank">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section certifications container">
+      <h2>Licenses & Certifications</h2>
+      <ul>
+        <li>Foundations of AI and Machine Learning — Microsoft (Jun 2025)</li>
+        <li>Programming for Everybody (Python) — University of Michigan (Apr 2025)</li>
+        <li>IBM SkillsBuild Course — IBM (Feb 2025)</li>
+        <li>Google Introduction to Generative AI — Google (Aug 2024)</li>
+        <li>Google Introduction to Large Language Models — Google (Aug 2024)</li>
+        <li>Google Introduction to Responsible AI — Google (Aug 2024)</li>
+      </ul>
+    </section>
+
+    <section id="resume" class="section resume container">
+      <h2>Resume</h2>
+      <p>Download my complete resume here:</p>
+      <a class="btn download" href="assets/resume.pdf" id="resume-download" download>Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact" class="section contact container">
+      <h2>Contact</h2>
+      <p>Reach out for collaboration or internship opportunities.</p>
+      <form id="contact-form" class="contact-form" action="mailto:mohammedshair04@gmail.com" method="post" enctype="text/plain">
+        <label>
+          Name
+          <input type="text" name="name" required placeholder="Your name" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" required placeholder="Short message"></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="btn" type="submit">Send</button>
+          <button class="btn ghost" type="reset">Reset</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mohammed Shair — All rights reserved.</p>
+      <p>Internship: <a href="https://www.jamunafoundation.com" target="_blank" rel="noopener">Jamuna Foundation</a></p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
